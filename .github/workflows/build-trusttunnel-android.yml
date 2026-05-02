@@ -36,7 +36,7 @@ jobs:
         with:
           submodules: recursive
 
-      # ── 2. Патчим CMakeLists — добавляем нашу target ───────────────────
+      # ── 2. Патчим CMakeLists — добавляем наш у target ───────────────────
       - name: Inject proxy wrapper into CMakeLists
         run: |
           # trusttunnel_proxy_jni.cpp лежит в корне репо
